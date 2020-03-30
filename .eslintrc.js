@@ -36,5 +36,11 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'no-shadow': 'off',
     'import/extensions': 'off',
+    'arrow-body-style': 'off',
+  },
+  settings: {
+    'import/resolver': {
+      typescript: {}, // this loads <rootdir>/tsconfig.json to eslint
+    },
   },
 };
