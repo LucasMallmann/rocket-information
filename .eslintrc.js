@@ -37,6 +37,8 @@ module.exports = {
     'no-shadow': 'off',
     'import/extensions': 'off',
     'arrow-body-style': 'off',
+    'react/prop-types': 'off',
+    '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
   },
   settings: {
     'import/resolver': {

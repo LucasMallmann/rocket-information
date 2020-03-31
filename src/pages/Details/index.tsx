@@ -3,12 +3,12 @@ import { View, Text } from 'react-native';
 
 // import { Container } from './styles';
 
-const Favorites: React.FC = () => {
+const Details: React.FC = () => {
   return (
     <View>
-      <Text>Favorites</Text>
+      <Text>Details</Text>
     </View>
   );
 };
 
-export default Favorites;
+export default Details;
